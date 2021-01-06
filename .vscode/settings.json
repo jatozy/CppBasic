@@ -1,10 +1,12 @@
 {
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp"
     },
+    "clang-tidy.buildPath": "build/compile_commands.json",
     "clang-tidy.checks": [
         "google-readability-braces-around-statements",
         "google-global-names-in-headers",
