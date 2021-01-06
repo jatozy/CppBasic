@@ -1,3 +1,18 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "clang-tidy.checks": [
+        "google-readability-braces-around-statements",
+        "google-global-names-in-headers",
+        "modernize-concat-nested-namespaces",
+        "modernize-use-default",
+        "mozilla-implicit-constructor",
+        "modernize-use-override",
+        "modernize-use-nullptr",
+        "readability-simplify-boolean-expr"
+    ]
 }
