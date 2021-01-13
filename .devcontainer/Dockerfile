@@ -5,4 +5,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/cpp:focal
 # [Optional] Uncomment this section to install additional packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends clang-format clang-tidy python3-pip graphviz
-RUN sudo pip3 install conan
+RUN sudo pip3 install conan networkx pydot

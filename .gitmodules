@@ -1,0 +1,3 @@
+[submodule "Tools/cmake-to-dot"]
+	path = Tools/cmake-to-dot
+	url = https://github.com/janwilmans/cmake-to-dot.git
