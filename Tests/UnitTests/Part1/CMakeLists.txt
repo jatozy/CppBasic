@@ -11,4 +11,5 @@ add_test(NAME Part1 COMMAND Part1_UnitTests)
 
 target_link_libraries(Part1_UnitTests 
     PRIVATE Part1
+    PRIVATE Part1Interfaces
     PRIVATE CONAN_PKG::catch2)
