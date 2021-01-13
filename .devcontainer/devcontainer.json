@@ -19,7 +19,8 @@
 		"ms-vscode.cpptools",
 		"ms-vscode.cpptools-extension-pack",
 		"xaver.clang-format",
-		"notskm.clang-tidy"
+		"notskm.clang-tidy",
+		"efanzh.graphviz-preview"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
