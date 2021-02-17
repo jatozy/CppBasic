@@ -1,0 +1,9 @@
+[
+    {
+        "name": "GCC 9.3.0",
+        "compilers": {
+            "C": "/bin/gcc-9",
+            "CXX": "/bin/g++-9"
+        }
+    }
+]

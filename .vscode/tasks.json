@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "conan",
+            "type": "shell",
+            "command": "mkdir build ; cd build && conan install ..",
+            "problemMatcher": []
+        },
+        {
+            "label": "dependencies",
+            "type": "shell",
+            "command": "cd build && cmake .. --graphviz=dependencies.dot",
+            "problemMatcher": []
+        },
+        {
+            "label": "search cyclic dependencies",
+            "type": "shell",
+            "command": "cd Tools/cmake-to-dot/scripts && cat `find ../../.. -name CMakeLists.txt` | ./cmake_to_dot.py | ./dot_find_cycles.py",
+            "problemMatcher": []
+        }
+    ]
+}

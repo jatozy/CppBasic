@@ -1,0 +1,20 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "clang-tidy.buildPath": "build/compile_commands.json",
+    "clang-tidy.checks": [
+        "google-readability-braces-around-statements",
+        "google-global-names-in-headers",
+        "modernize-concat-nested-namespaces",
+        "modernize-use-default",
+        "mozilla-implicit-constructor",
+        "modernize-use-override",
+        "modernize-use-nullptr",
+        "readability-simplify-boolean-expr"
+    ]
+}
